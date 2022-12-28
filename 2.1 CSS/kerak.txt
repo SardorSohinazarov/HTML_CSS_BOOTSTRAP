@@ -1,0 +1,30 @@
+CSS - casscading style sheets
+
+3 - usulda qo'llanyapti 
+    1-inline css
+        <h1 style="color:red;text-align: center;">Hello World!</h1>
+
+
+    2-internal css
+        head ni ichida css yozish
+
+        <head>
+            <title>
+                CSS
+            </title>
+
+            <style>
+                h1{
+                    color: blue;
+                    text-align: center;
+                }
+            </style>
+        </head>
+
+    
+    3-css file ochish
+
+
+<div></div>
+    va divni asosiy vazifasi elementlarni guruhlash
+    

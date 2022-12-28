@@ -1,0 +1,119 @@
+body , h1{
+    margin:0
+}
+
+
+.container {
+    color:#222;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-1 {
+    background-color: black;
+    margin-top: 30px;
+    padding: 20px 30px;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.box-1 h1{
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: white;
+}
+
+.box-1 p{
+    color: white;
+}
+
+.box-2 {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px 30px;
+    border: 2px dashed black;
+    border-radius: 10px;
+}
+
+.box-2 h1{
+    color: black;
+    text-align: end;
+    text-decoration:wavy;
+}
+
+.box-2 p{
+    color: black;
+}
+
+.button {
+    color: #fff;
+    background-color: #222;
+    font-size: 18px;
+    border: 1px solid #222;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.box-2 button{
+    width: 150px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #222;
+}
+
+.box-3{
+    margin : 20px 0;
+    border: 1px solid #222;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box-3 h1{
+    text-align: center;
+    color: #222;
+    font-family: sans-serif;
+}
+
+.categories{
+    color: #222;
+}
+
+.categories li{
+    list-style-type: disc;
+    padding: 5px 0;
+    border-bottom: 1px solid #555;
+}
+
+.button {
+    border: 1px solid #222;
+    text-align: center;
+    width: 100%;
+}
+
+
+.myform{
+    
+}
+
+.myform button{
+    background-color: #222;
+    width: 100px;
+    margin-bottom: 50px;
+
+}
+
+.myform label{
+    display: block;
+    font-size: 20px;
+    color: #555;
+}
+
+.myform input , .myform textarea{
+    margin: 8px 0;
+    padding: 5px;
+    width: 100%;
+}

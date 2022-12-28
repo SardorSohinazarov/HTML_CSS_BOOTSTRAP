@@ -1,0 +1,19 @@
+html - hyper text murkup language
+
+tag 
+
+attribute
+
+
+shunchaki text shakllar bular
+    <title></title>
+    <h1></h1>
+    <p></p>
+    <t></t>
+
+rasm qo'shish:
+    <img src="pic1.jpg" width="350" style="cursor: grabbing;" >
+
+ link yaratish: (target blank linkni boshqa oynada ochilishini taminlaydi)
+     <a href="https://youtube.com" target="_blank">Bu yerga bosing</a>
+

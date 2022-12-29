@@ -9,6 +9,7 @@
     border-bottom: 5px solid coral;
 }
 
+
 #header h1{
     color: #fff;
     font-family: sans-serif;
@@ -16,6 +17,18 @@
     display: inline-block;
 }
 
+.logoS{
+    float: left;
+    padding:7px 0;
+    padding-right: 50px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.logoS img{
+    width: 50px;
+    border-radius: 50%;
+}
 #header .logo2:hover{
     color: coral;
 }

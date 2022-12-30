@@ -1,0 +1,194 @@
+
+.body , h1, h2, h3, ul, p{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-color: #35424a;
+    border-bottom: 5px solid coral;
+}
+
+
+#header h1{
+    color: #fff;
+    font-family: sans-serif;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.logoS{
+    float: left;
+    padding:7px 0;
+    padding-right: 50px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.logoS img{
+    width: 50px;
+    border-radius: 50%;
+}
+#header .logo2:hover{
+    color: coral;
+}
+
+#header .logo{
+    color: coral;
+}
+
+#header .logo:hover{
+    color: #fff;
+}
+
+ 
+
+
+.navbar{
+    float:right
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 25px 15px;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.navbar li a:hover{
+    color: coral;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+#banner{
+    height: 60vh;
+    background-image: url(../images/bino.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 100px;
+}
+
+#banner p{
+    font-size: 30px;
+    
+}
+
+.sozlar{
+    color: coral;
+}
+
+#newsletter{
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left{
+    float:left;
+}
+
+#newsletter .right{
+    float:right;
+}
+
+#newsletter input{
+    padding: 5px;
+}
+
+.button{
+    padding: 7px 15px;
+    border: none;
+    color: #fff;
+    background-color: coral;
+}
+
+#courses{
+    padding: 30px 0;
+}
+
+.box{
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box img{
+    width: 100%;
+    width: 120px;
+}
+
+.clr{
+    clear: both;
+}
+
+#footer{
+    padding: 30px 0;
+    background-color: coral;
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.main-content{
+    width: 65%;
+    float: left;
+}
+
+.sidebar{
+    width: 30%;
+    float: right;
+}
+
+#about-us{
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+
+.bg-dark{
+    background-color: #35424a;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.servise-box{
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e5e5e5;
+    border: 1px solid #555;
+    border-radius: 7px;
+}
+
+label{
+    display: block;
+    margin:5px 0;
+}
+
+.form-input ,textarea{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.active{
+    color: coral !important;
+}

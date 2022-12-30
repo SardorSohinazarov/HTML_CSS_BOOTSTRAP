@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\1.HTML",
-    "\\2.1 CSS",
     "\\2.2 CSS",
     "\\2.3 SAYTCHA",
     "\\3.1 Uch sahifali sayt",
     "\\3.1 Uch sahifali sayt\\images",
     "\\3.2 Uch sahifali sayt davomi",
     "\\3.2 Uch sahifali sayt davomi\\css",
-    "\\3.2 Uch sahifali sayt davomi\\images"
+    "\\3.2 Uch sahifali sayt davomi\\images",
+    "\\4.1 Mehmonxona_Web_Site",
+    "\\4.1 Mehmonxona_Web_Site\\img"
   ],
-  "SelectedNode": "\\3.2 Uch sahifali sayt davomi\\servises.html",
+  "SelectedNode": "\\4.1 Mehmonxona_Web_Site\\contact.html",
   "PreviewInSolutionExplorer": false
 }

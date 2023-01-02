@@ -1,0 +1,76 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url('../img/image1.jpg');
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url('../img/image2.jpg');
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url('../img/image3.jpg');
+  background-size: cover;
+}
+
+#home-icons{
+
+}
+
+#bg-box{
+  background-image: url(../img/lights.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+.dark-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.6);
+}
+
+#what-we-do{
+  background-image: url(../img/media.jpg);
+  background-attachment: fixed;
+  min-height: 200px;
+  position: relative;
+}
+
+#main-footer{
+  background-color: #000;
+  color: #fff;
+}
+
+.about-banner{
+  background-image: url(../img/image3.jpg);
+
+  /*qotirib qo'yish*/
+  background-attachment: fixed;
+}
+
+.about-img{
+  margin-top: -70px;
+}

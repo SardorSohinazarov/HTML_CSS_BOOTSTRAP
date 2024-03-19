@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    background-color: black;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.clr{
+    clear: both;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box{
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid;
+}
+
+.box-1{
+    background-color: rgb(0, 255, 255);
+    border: solid;
+}
+
+.box-1 h1{
+    text-decoration:underline;
+    color: blue;
+}
+
+.box-1 p{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-2{
+    border: dashed;
+    border-color: brown;
+}
+
+.box-2 h1{
+    color: aquamarine;
+    font-size: 60px;
+}
+
+.box-3{
+    border: dashed;
+}
+
+.box-3 ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box-3 li{
+    display: block;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(84, 84, 84);
+}
+
+
+.box-3 li:hover{
+    background-color: rgb(100, 168, 168);
+}
+
+.box-3 li:nth-child(even){
+    background-color: rgb(155, 235, 235);
+}
+
+.box-4 .form-input{
+    margin:10px auto;
+}
+
+.form-input label{
+    display: block;
+}
+
+.form-input input{
+    width: 100%;
+}
+
+.form-input textarea{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.sections .section{
+    margin: 0;
+    width: 30%;
+    float: left;
+    margin: 5px;
+    /* box-sizing: border-box; */
+}
+
+.sections2 .section1{
+    float: left;
+    width: 65%;
+}
+
+.sections2 .section2{
+    margin-left: 10px;
+    float: left;
+    width: 27%;
+    box-sizing: border-box;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+}
+
+.t-icon img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

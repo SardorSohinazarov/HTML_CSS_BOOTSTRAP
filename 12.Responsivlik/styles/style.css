@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 90vh;
+}
+
+.column{
+    padding: 5px;
+    background-color: aquamarine;
+    float: left;
+    border: 2px dashed green;
+    text-align: center;
+}
+
+
+@media (max-width:767px){
+    .column{
+        width: 100%;
+    }
+
+    header{
+        background-image: url(../images/mobile.jpg);
+        background-size: cover;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .column{
+        width: 50%;
+    }
+
+    header{
+        background-image: url(../images/desktop.jpg);
+        background-size: cover;
+    }
+}
+
+
+@media (min-width:1024px){
+    .column{
+        width: 25%;
+    }
+
+    header{
+        background-image: url(../images/desktop.jpg);
+        background-size: cover;
+    }
+}
